@@ -1,0 +1,117 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* transition: 1s all;  */
+}
+
+
+body{
+    background-color: #081477;
+    color: #fff;
+    width: 98.5%;
+    height: 98.5%;
+    padding: 5vh;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+
+
+#follower{
+    
+    width:  150%;
+    height: 250%;
+
+    /* background-color: red; */
+
+    background: url("https://rapidapi.com/_nuxt/img/depth-3.b4295e7.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+
+    /* border: 1px solid red; */
+
+    z-index: 9999;
+
+}
+
+
+
+
+#msg{
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-family: 'Public Sans', sans-serif;
+    z-index: 99999;
+}
+
+
+
+#msg > h2{
+    font-weight: 400;
+    word-spacing: 5px;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+#msg > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    /* font-size: 0.4rem; */
+    text-decoration: none;
+}
+
+
+#msg > a:hover{ 
+    text-decoration:underline ;
+}
+
+
+
+#images{
+    width: 90%;
+    height: 95vh; 
+    /* border:1px solid red; */
+    margin-top: -10%;
+
+    background: url("https://rapidapi.com/_nuxt/img/depth-1.a0eeec0.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+}
+
+
+#alian{
+    height: 50%;
+    width: 30%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
