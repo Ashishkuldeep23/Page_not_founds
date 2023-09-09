@@ -24,7 +24,7 @@ window.addEventListener( "mousemove" , (dels)=>{
     let followerDivHeight = followerDiv.getBoundingClientRect().height
     let followerDivWidth = followerDiv.getBoundingClientRect().width
 
-    followerDiv.style.transform = `translate(${x-(followerDivWidth/2)+100}px , ${y-(followerDivHeight/2)+450}px)`
+    followerDiv.style.transform = `translate(${x-(followerDivWidth/2) - 60}px , ${y-(followerDivHeight/2)+550}px)`
 
 
 
@@ -47,7 +47,7 @@ window.addEventListener( "mousemove" , (dels)=>{
 
     gsap.to( "#alian" , {
 
-        left : moveX + alian.width*2 , 
+        left : moveX + alian.width*1.6 , 
 
         top : moveY  + alian.height/2  ,
 
