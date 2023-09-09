@@ -47,7 +47,7 @@ window.addEventListener( "mousemove" , (dels)=>{
 
     gsap.to( "#alian" , {
 
-        left : moveX + alian.width*1.6 , 
+        left : moveX + alian.width*1.67 , 
 
         top : moveY  + alian.height/2  ,
 
