@@ -47,7 +47,7 @@ window.addEventListener( "mousemove" , (dels)=>{
 
     gsap.to( "#alian" , {
 
-        left : moveX + alian.width*1.67 , 
+        left : moveX + alian.width*1.85 , 
 
         top : moveY  + alian.height/2  ,
 
@@ -57,6 +57,19 @@ window.addEventListener( "mousemove" , (dels)=>{
 
 
 } )
+
+
+
+
+
+
+
+if(window.innerWidth < "1000"){
+    alert("This website is not Responsive , Open in Large screen display.")
+}
+
+
+
 
 
 

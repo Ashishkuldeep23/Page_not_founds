@@ -1,9 +1,7 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans&family=Roboto&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +10,7 @@
 }
 
 
-body{
+body {
     background-color: #081477;
     color: #fff;
     width: 98.5%;
@@ -23,7 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
 
     overflow: hidden;
 
@@ -33,10 +31,10 @@ body{
 
 
 
-#follower{
-    
-    width:  150%;
+#follower {
+
     height: 250%;
+    width: 150%;
 
     /* background-color: red; */
 
@@ -56,7 +54,7 @@ body{
 
 
 
-#msg{
+#msg {
     color: white;
     text-align: center;
     font-size: small;
@@ -66,14 +64,14 @@ body{
 
 
 
-#msg > h2{
+#msg>h2 {
     font-weight: 400;
     word-spacing: 5px;
     font-size: 3rem;
     letter-spacing: 3px;
 }
 
-#msg > a{
+#msg>a {
     color: white;
     text-decoration: none;
     font-weight: 100;
@@ -82,15 +80,15 @@ body{
 }
 
 
-#msg > a:hover{ 
-    text-decoration:underline ;
+#msg>a:hover {
+    text-decoration: underline;
 }
 
 
 
-#images{
+#images {
     width: 90%;
-    height: 95vh; 
+    height: 95vh;
     /* border:1px solid red; */
     margin-top: -10%;
 
@@ -104,14 +102,26 @@ body{
 }
 
 
-#alian{
+#alian {
     height: 50%;
     width: 30%;
 
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
 }
 
 
+
+
+@media (max-width : 600px) {
+
+
+
+    #alian {
+
+        width: 60%;
+    }
+
+}
